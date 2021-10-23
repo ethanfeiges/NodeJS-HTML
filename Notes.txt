@@ -1,0 +1,11 @@
+Node is a runtime environment executing JS code:
+Node is NOT a programming language or a website framework.
+
+Runtime environment: Contains a javascript "engine" that can execute JS.
+
+Node JS also contains certain objects - different than those found in browsers - that allow us to execute JS code
+
+Non-blocking/Asynchronous arhictecture (What Node uses): A single "thread" is used to handle multiple "requests". While the database is executing our "request" the "thread" can serve another client. 
+
+
+Synchronous architecture: A "thread" is allocated to each "request". HIGHLY inefficient with hardware usage.
