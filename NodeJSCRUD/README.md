@@ -1,1 +1,1 @@
-This application demonstrates CRUD operations using a mysql database with NodeJS
+This full-stack application demonstrates CRUD operations using a MySQL database. A client interacts with an index.html page to make HTTP requests to the server app.js.  To perform each CRUD operation, there will be a corresponding route to make an HTTP request. The server app.js then makes a request to a DBService, which makes database calls to perform CRUD operations. The DBService sends JSON responses back to the server, which then relays that response to the front-end for display.
